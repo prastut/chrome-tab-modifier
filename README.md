@@ -1,9 +1,7 @@
 # <img src="dist/img/icon_32.png" alt="icon"> Tab Modifier
 
-Take control of your tabs.
+All credits go to https://github.com/sylouuu/chrome-tab-modifier. I just fixed some teeny bugs with regex.
 
-[![Build Status](http://img.shields.io/travis/sylouuu/chrome-tab-modifier.svg?style=flat)](https://travis-ci.org/sylouuu/chrome-tab-modifier)
-[![devDependency Status](http://img.shields.io/david/dev/sylouuu/chrome-tab-modifier.svg?style=flat)](https://david-dm.org/sylouuu/chrome-tab-modifier#info=devDependencies)
 
 ## Features
 
@@ -16,33 +14,18 @@ Take control of your tabs.
 
 Quick rename can be done by right-clicking anywhere in the page and click on "Rename Tab".
 
-## Why?
-
-I needed a quick UI element in Chrome to know the environment of the tab, as a Web developer I often use multiple versions of the same website: local, pre-production and production.
-
-Not easy to find the appropriate tab when you have multiple tabs called "My awesome website".
-
-I created Tab Modifier to add prefixes to website titles with a specific match.
-
-* [DEV] My awesome website: `.local.domain.com`
-* [PREPROD] My awesome website: `.preprod.domain.com`
-* [PROD] My awesome website: `.domain.com`
-
-After that, I have added more features like "auto-pin", custom favicons and more.
-
-## Focused scope
-
-Tab Modifier is based on user *rules* and act on the tab URL that matches the first seen rule.
-
-Aware of that, there is no reason to include a feature that is not "rule-based". Prefer to install specific extensions.
 
 ## Installation
 
-Install from the **[Chrome Web Store](https://chrome.google.com/webstore/detail/hcbgadmbdkiilgpifjgcakjehmafcjai/)**.
+1. Download the latest release from https://github.com/prastut/chrome-tab-modifier/releases
+2. Unzip the extension
+1. Go to 'chrome://extensions" or 'brave://extensions" 
+2. Turn on Developer mode. 
+5. Click on "Load unpacked"
+6. Navigate to the folder which got created after you unzipped. 
+7. Navigate inside the folder and select the 'dist' folder. 
 
-Also available for **[Opera Browser](https://addons.opera.com/fr/extensions/details/tab-modifier/)**.
 
-Not available for **Firefox**, refer to [#46](https://github.com/sylouuu/chrome-tab-modifier/issues/46).
 
 ## Usage
 
@@ -226,15 +209,3 @@ Type `gulp` to watch your changes inside `src/` folder or type `gulp build` afte
 Go to `chrome://extensions/` and enable the "Developer mode".
 
 Click on "Load unpacked extension..." and select the project `dist/` folder.
-
-## Donators
-
-A huge thanks to:
-
-_Fabian L., Brent M., Artur S., Sebastian M., Alex B., Dirk H., Christopher S., Rachel M., Richard D., Daniel C., Clifford W._
-
-If you like my work and you want to support me, visit the [PayPal link](https://www.paypal.me/svalienne/5). ;)
-
-## License
-
-See [license](LICENSE.md) file.
